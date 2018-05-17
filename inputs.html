@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+      <!-- <p>Do you prefer cats or dogs?</p>
+      <form>
+        <label for="dogs">Dogs: </label>
+        <input name="petchoice" id="dogs" type="radio" value="DOGS">
+        <label for="cats">Cats: </label>
+        <input name="petchoice" id="cats" type="radio" value="CATS">
+
+        <p>What's Your Current Mood</p>
+        <select name="color">
+          <option value="happy">:)</option>
+          <option value="neutral">:/</option>
+          <option value="sad">:(</option>
+        </select>
+
+        <input type="text">
+
+        <textarea name="paragraph" rows="10" cols="50"></textarea>
+
+        <button>Go!</button>
+      </form> -->
+      <h1>Register</h1>
+      <form>
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" placeholder="John" required>
+        <label for="LastName">Last name:</label>
+        <input type="text" id="LastName" placeholder="Smith" required>
+      </form>
+      <form>
+        <label for="male">Male</label>
+        <input name="gender" type="radio" id="male">
+        <label for="female">Female</label>
+        <input name="gender" type="radio" id="female">
+        <label for="other">Other</label>
+        <input name="gender" type="radio" id="other">
+      </form>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+      </form>
+      <form>
+        <p>Birthday:</p>
+        <select name="Day">
+          <option value="1">1</option>
+          <option value="1">1</option>
+          <option value="1">1</option>
+        </select>
+        <select name="Month">
+          <option value="Jan">January</option>
+          <option value="1">1</option>
+          <option value="1">1</option>
+        </select>
+        <select name="Year">
+          <option value="1">1</option>
+          <option value="1">1</option>
+          <option value="1">1</option>
+        </select>
+        <label for="agree">I Agree to the Terms and Conditions</label>
+        <input type="checkbox" id="agree">
+      </form>
+  </body>
+</html>

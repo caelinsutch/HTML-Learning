@@ -1,0 +1,31 @@
+.wrapper {
+  margin: auto;
+  width: 50%;
+  border: solid 20px #bdc3c7;
+}
+
+.post {
+  padding: 20px;
+}
+.thing {
+  background-color: #bdc3c7;
+  float: left;
+  width: 5px;
+  height: 55px;
+  margin-right: 5px;
+}
+.line {
+  border-top: 1px solid #bdc3c7
+}
+h1, h2, p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-weight: 800;
+}
+h2 {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12pt;
+}
